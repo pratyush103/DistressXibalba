@@ -1,0 +1,19 @@
+---
+type: component
+weight: 0.25
+hasStoneMaterial: true
+
+visual:
+  character: "0700"
+  color: DDDDDD
+
+attributes:
+  hitDamage: 2
+  throwDamage: 2
+
+actions:
+  - throw
+  - hold
+
+verbs:
+  - hit

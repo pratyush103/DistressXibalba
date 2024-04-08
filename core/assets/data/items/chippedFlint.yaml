@@ -1,0 +1,27 @@
+---
+type: weapon
+weaponType: melee
+weight: 1
+
+visual:
+  character: "1405"
+  color: FFFFFF
+
+skill: piercing
+location: right hand
+
+attributes:
+  hitDamage: 6
+  throwDamage: 4
+
+actions:
+  - consume
+  - throw
+  - hold
+  - applyTo
+
+verbs:
+  - stabbed
+  - impaled
+  - gutted
+  - pierced

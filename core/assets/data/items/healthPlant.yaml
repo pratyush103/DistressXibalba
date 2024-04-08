@@ -1,0 +1,23 @@
+---
+type: consumable
+weight: 0
+
+visual:
+  character: "1114"
+  color: 67CF8B
+
+actions:
+  - consume
+  - apply
+
+effects:
+  - !RaiseHealth {
+    type: ACTIVE,
+    trigger: CONSUME,
+    amount: 20
+  }
+  - !RaiseHealth {
+      type: ACTIVE,
+      trigger: APPLY,
+      amount: 20
+    }

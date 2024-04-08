@@ -1,0 +1,35 @@
+---
+type: weapon
+weaponType: range
+weight: 3
+
+visual:
+  character: "0902"
+  color: BD977D
+
+twoHanded: true
+skill: bashing
+location: right hand
+ammunition: arrow
+
+attributes:
+  throwDamage: 4
+  hitDamage: 4
+
+actions:
+  - consume
+  - throw
+  - hold
+  - applyTo
+
+verbs:
+  - hit
+
+craftedRange:
+  - 1
+  - 1
+
+requiredComponents:
+  -
+    key: longStick
+    amount: 1

@@ -1,0 +1,39 @@
+---
+type: weapon
+ammunitionType: spear
+weaponType: melee
+weight: 3
+
+visual:
+  character: "1502"
+  color: BD977D
+
+skill: piercing
+location: right hand
+
+attributes:
+  hitDamage: 6
+  throwDamage: 8
+  shotDamage: 12
+
+actions:
+  - consume
+  - throw
+  - hold
+  - applyTo
+
+verbs:
+  - stabbed
+  - impaled
+  - gutted
+  - pierced
+
+craftedRange:
+  - 1
+  - 1
+
+requiredComponents:
+  - key: longStick
+    amount: 1
+  - key: shard
+    amount: 1

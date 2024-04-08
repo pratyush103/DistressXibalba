@@ -1,0 +1,30 @@
+---
+type: ANIMAL
+
+visual:
+  character: "0307"
+  color: EBE8DD
+
+attributes:
+  speed: 20
+  vision: 10
+  hearing: 10
+  toughness: 6
+  strength: 4
+  agility: 4
+
+brain:
+  aggression: 0.3
+  fearThreshold: 0.3
+  dna:
+    - TERRESTRIAL
+
+bodyParts:
+  head: 8
+  body: 6
+  left arm: 8
+  right arm: 8
+  left leg: 6
+  right leg: 6
+
+wearableBodyParts:

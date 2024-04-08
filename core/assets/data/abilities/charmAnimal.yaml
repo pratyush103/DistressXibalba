@@ -1,0 +1,14 @@
+---
+name: Charm Animal
+description: Charm an animal to not attack you for 5 turns
+type: ACTIVE
+targetRequired: true
+targetType: ANIMAL
+recharge: 10
+counter: 10
+effects:
+  - !Charm {
+      type: ACTIVE,
+      trigger: INSTANT,
+      life: 5
+    }

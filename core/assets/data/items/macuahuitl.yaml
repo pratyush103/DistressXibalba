@@ -1,0 +1,36 @@
+---
+type: weapon
+weaponType: melee
+weight: 2
+
+visual:
+  character: "1309"
+  color: 532E2A
+
+skill: slashing
+location: hand
+
+attributes:
+  hitDamage: 10
+  throwDamage: 6
+
+actions:
+  - consume
+  - throw
+  - hold
+  - applyTo
+
+verbs:
+  - cut
+  - slashed
+  - rekt
+
+craftedRange:
+  - 1
+  - 1
+
+requiredComponents:
+  - key: shortStick
+    amount: 1
+  - key: shard
+    amount: 6

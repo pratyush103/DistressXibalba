@@ -1,0 +1,25 @@
+---
+type: ANIMAL
+
+visual:
+  character: "0501"
+  color: DDE6CC
+
+attributes:
+  speed: 100
+  vision: 10
+  hearing: 10
+  toughness: 6
+  strength: 8
+  agility: 12
+
+brain:
+  aggression: 0.8
+  fearThreshold: 0.8
+  dna:
+    - TERRESTRIAL
+
+bodyParts:
+  body: 6
+
+wearableBodyParts:

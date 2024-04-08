@@ -1,0 +1,48 @@
+---
+type: ANIMAL
+
+visual:
+  character: "1006"
+  color: D0852B
+
+attributes:
+  speed: 120
+  vision: 10
+  hearing: 15
+  toughness: 8
+  strength: 8
+  agility: 10
+
+brain:
+  aggression: 0.9
+  fearThreshold: 1
+  dna:
+    - TERRESTRIAL
+
+bodyParts:
+  head: 8
+  body: 6
+  left arm: 8
+  right arm: 8
+  left leg: 8
+  right leg: 8
+
+wearableBodyParts:
+  skin:
+    - !RaiseSpeed {
+      type: PASSIVE,
+      trigger: WEAR,
+      amount: 10
+    }
+  left leg:
+    - !RaiseSpeed {
+      type: PASSIVE,
+      trigger: WEAR,
+      amount: 10
+    }
+  right leg:
+    - !RaiseSpeed {
+      type: PASSIVE,
+      trigger: WEAR,
+      amount: 10
+    }

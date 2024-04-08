@@ -1,0 +1,27 @@
+---
+type: bandage
+weight: 0.25
+
+visual:
+  character: "0006"
+  color: FFFFFF
+
+attributes:
+  hitDamage: 2
+  throwDamage: 2
+
+actions:
+  - throw
+  - hold
+  - bandage
+
+verbs:
+  - hit
+
+craftedRange:
+  - 1
+  - 2
+
+requiredComponents:
+  - key: skin
+    amount: 1

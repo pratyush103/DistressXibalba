@@ -1,0 +1,28 @@
+---
+type: ANIMAL
+
+visual:
+  character: "1301"
+  color: 8FA9BA
+
+attributes:
+  speed: 100
+  vision: 5
+  hearing: 20
+  toughness: 4
+  strength: 4
+  agility: 4
+
+brain:
+  aggression: 0.3
+  fearThreshold: 0.2
+  dna:
+    - TERRESTRIAL
+
+bodyParts:
+  head: 8
+  body: 8
+  left wing: 6
+  right wing: 6
+
+wearableBodyParts:

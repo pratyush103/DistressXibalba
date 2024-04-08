@@ -1,0 +1,25 @@
+---
+type: corpse
+weight: 5
+
+visual:
+  character: "0109"
+  color: D67474
+
+skill: bashing
+location: right hand
+
+attributes:
+  hitDamage: 6
+  throwDamage: 4
+
+actions:
+  - throw
+  - hold
+  - skin
+  - dismember
+  - consume
+
+verbs:
+  - bashed
+  - hit

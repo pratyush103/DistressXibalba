@@ -1,0 +1,35 @@
+---
+type: ANIMAL
+
+visual:
+  character: "0606"
+  color: 5CB1E6
+
+attributes:
+  speed: 100
+  vision: 10
+  hearing: 10
+  toughness: 4
+  strength: 4
+  agility: 8
+
+brain:
+  aggression: 0.3
+  fearThreshold: 0.2
+  dna:
+    - TERRESTRIAL
+
+bodyParts:
+  head: 8
+  body: 8
+
+wearableBodyParts:
+
+effects:
+  - !Poison {
+    type: ACTIVE,
+    trigger: HIT,
+    chance: 33,
+    damage: 3,
+    life: 5
+  }

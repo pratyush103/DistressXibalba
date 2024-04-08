@@ -1,0 +1,23 @@
+---
+type: limb
+weight: 2
+
+visual:
+  character: "1407"
+  color: D67474
+
+skill: bashing
+location: right hand
+
+attributes:
+  hitDamage: 4
+  throwDamage: 4
+
+actions:
+  - throw
+  - hold
+  - consume
+
+verbs:
+  - bashed
+  - hit

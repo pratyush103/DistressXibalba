@@ -1,0 +1,27 @@
+---
+type: ANIMAL
+
+visual:
+  character: "1002"
+  color: EC950E
+
+attributes:
+  speed: 120
+  vision: 10
+  hearing: 0
+  toughness: 6
+  strength: 8
+  agility: 6
+
+brain:
+  aggression: 0.5
+  fearThreshold: 0.8
+  dna:
+    - TERRESTRIAL
+
+bodyParts:
+  head: 8
+  body: 6
+  legs: 4
+
+wearableBodyParts:

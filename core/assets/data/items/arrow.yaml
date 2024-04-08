@@ -1,0 +1,40 @@
+---
+type: ammunition
+ammunitionType: arrow
+skill: archery
+weight: 0.5
+
+visual:
+  character: "1302"
+  color: BD977D
+
+attributes:
+  throwDamage: 2
+  hitDamage: 2
+  shotDamage: 8
+
+effects:
+  - !DealDamage {
+    type: ACTIVE,
+    trigger: CONSUME,
+    damage: 16
+  }
+
+actions:
+  - consume
+  - throw
+  - hold
+  - applyTo
+
+verbs:
+  - shot
+
+craftedRange:
+  - 1
+  - 1
+
+requiredComponents:
+  - key: shortStick
+    amount: 1
+  - key: shard
+    amount: 1

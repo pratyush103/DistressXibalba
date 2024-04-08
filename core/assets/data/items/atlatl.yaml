@@ -1,0 +1,35 @@
+---
+type: weapon
+weaponType: range
+weight: 3
+
+visual:
+  character: "1205"
+  color: E6EDD0
+
+twoHanded: true
+skill: bashing
+location: right hand
+ammunition: spear
+
+attributes:
+  throwDamage: 6
+  hitDamage: 6
+
+actions:
+  - consume
+  - throw
+  - hold
+  - applyTo
+
+verbs:
+  - hit
+
+craftedRange:
+  - 1
+  - 1
+
+requiredComponents:
+  -
+    key: longStick
+    amount: 1

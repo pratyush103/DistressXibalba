@@ -1,0 +1,18 @@
+---
+type: component
+weight: 0.25
+
+visual:
+  character: "0006"
+  color: FFFFFF
+
+attributes:
+  hitDamage: 2
+  throwDamage: 2
+
+actions:
+  - throw
+  - hold
+
+verbs:
+  - hit

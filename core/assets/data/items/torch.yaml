@@ -1,0 +1,30 @@
+---
+type: light
+weight: 0.5
+
+visual:
+  character: "0407"
+  color: BD977D
+
+attributes:
+  throwDamage: 2
+  hitDamage: 2
+
+actions:
+  - throw
+  - hold
+
+verbs:
+  - hit
+
+effects:
+  - !StartFire {
+    type: ACTIVE,
+    trigger: DROP
+  }
+
+lightRadius: 5
+lightFlickers: true
+lightColors:
+  - "EAF27B"
+  - "EF5D43"

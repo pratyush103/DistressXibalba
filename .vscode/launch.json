@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "DesktopLauncher",
+            "request": "launch",
+            "mainClass": "me.dannytatom.xibalba.desktop.DesktopLauncher",
+            "projectName": "xibalba-desktop"
+        },
+        {
+            "type": "java",
+            "name": "Launch Desktop",
+            "request": "launch",
+            "mainClass": "me.dannytatom.xibalba.desktop.DesktopLauncher",
+            "projectName": "desktop_main",
+            "cwd": "${workspaceFolder}/core/assets"
+        }
+    ]
+}

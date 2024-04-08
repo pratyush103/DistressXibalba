@@ -1,0 +1,27 @@
+---
+type: component
+weight: 0.25
+hasStoneMaterial: true
+
+visual:
+  character: "0702"
+  color: DDDDDD
+
+attributes:
+  hitDamage: 2
+  throwDamage: 2
+
+actions:
+  - throw
+  - hold
+
+verbs:
+  - hit
+
+craftedRange:
+  - 2
+  - 5
+
+requiredComponents:
+  - key: stone
+    amount: 1

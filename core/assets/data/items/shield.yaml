@@ -1,0 +1,25 @@
+---
+type: armor
+weight: 5
+
+visual:
+  character: "1305"
+  color: FFFFFF
+
+skill: bashing
+location: left hand
+
+attributes:
+  hitDamage: 6
+  throwDamage: 6
+  defense: 6
+
+actions:
+  - consume
+  - throw
+  - wear
+  - hold
+
+verbs:
+  - bashed
+  - hit
